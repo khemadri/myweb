@@ -3,7 +3,7 @@ pipeline{
 	tools {
             maven 'maven2'
                 }
-// 	stages{
+	stages{
 // 		stage("SCM checkout"){
 // 			steps{
 // 			git credentialsId: 'khemadri', url: 'https://github.com/khemadri/myweb'
