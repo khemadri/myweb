@@ -23,6 +23,7 @@ pipeline{
 			      ssh "ec2-user@172.31.35.101 /opt/tomcat/bin/startup.sh"		    
                }
 	}
-}
+    }
+ }
 }
 		
