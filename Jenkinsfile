@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("SCM checkout"){
 			steps{
-			 git credentialsId: 'slave-ssh', url: 'https://github.com/khemadri/myweb'
+			git credentialsId: 'khemadri', url: 'https://github.com/khemadri/myweb'
 			}
 		}
 		stage("maven build"){
