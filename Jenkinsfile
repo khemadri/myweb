@@ -11,7 +11,7 @@ pipeline{
 // 		}
 		stage("maven build"){
 			steps{
-			 sh "mvn2 clean package"
+			 sh "mvn clean package"
 			}
 		}
 		stage("deploy to tomcat"){
