@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-               git "https://github.com/javahometech/myweb
+               git "https://github.com/javahometech/myweb"
             }
         }
     }
